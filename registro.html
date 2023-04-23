@@ -1,0 +1,48 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="elephant_image.png" rel="shortcut icon" type="img/png">
+	<link href="efects.css" rel="stylesheet" type="text/css">
+	<title>Mi tienda</title>
+	<script src="registro.js" type="text/JavaScript"></script>
+</head>
+<body><center>
+	<br><br>
+	<h1><font color="#81a969">Registro</font></h1>
+	<br><br>
+	<table border="3" width="80%">
+		<form name="f_regis">
+		<tr align="center">
+			<td><p><font size="6" color="#32620e">Nombre:</p></td>
+			<td><input name="nom" type="text" class="campo" onclick="campos_verdes()"></td>
+		</tr>
+		<tr align="center">
+			<td><p><font size="6" color="#32620e">Apellido:</p></td>
+			<td><input name="ape" type="text" class="campo" onclick="campos_verdes()"></td>
+		</tr>
+		<tr align="center">
+			<td><p><font size="6" color="#32620e">Cuenta:</p></td>
+			<td><input name="cta" type="text" class="campo" onclick="campos_verdes()"></td>
+		</tr>
+		<tr align="center">
+			<td><p><font size="6" color="#32620e">Ingresa una contraseña:</p></td>
+			<td><input name="pas" type="password" class="campo" onclick="campos_verdes()">
+				<img src="ojo_abierto.png" width="20" height="20" onclick="mostrar_pas()">
+				<img src="ojo_cerrado.png" width="20" height="20" onclick="ocultar_pas()">
+			</td>
+		</tr>
+		<tr align="center">
+			<td><p><font size="6" color="#32620e">Verifica tu contraseña:</p></td>
+			<td><input name="pass" type="password" class="campo" onclick="campos_verdes()">
+				<img src="ojo_abierto.png" width="20" height="20" onclick="mostrar_pass()">
+				<img src="ojo_cerrado.png" width="20" height="20" onclick="ocultar_pass()">
+			</td>
+		</tr>
+		<tr align="center">
+			<td><input type="reset" class="boton_reg" value="Reset" name="b_reset"></td>
+			<td><input type="button" class="boton_cat" value="Registrarme" name="b_regi"onclick="valida()"></td>
+		</tr>
+	</form>
+	</table> 
+</center></body>
+</html>

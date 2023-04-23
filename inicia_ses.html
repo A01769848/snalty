@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="elephant_image.png" rel="shortcut icon" type="img/png">
+	<link href="efects.css" rel="stylesheet" type="text/css">
+	<title>Mi tienda</title>
+	<script src="incia_ses.js" type="text/JavaScript"></script>
+</head>
+<body><center>
+	<br><br>
+	<h1><font color="#81a969">Iniciar sesión</font></h1>
+	<br><br>
+	<table border="3" width="70%">
+		<form name="f_is">
+		<tr align="center">
+			<td><p><font size="6" color="#32620e">Cuenta:</p></td>
+			<td><input name="cta" type="text" class="campo" onclick="campos_verdes()"></td>
+		</tr>
+		<tr align="center">
+			<td><p><font size="6" color="#32620e">Contraseña:</p></td>
+			<td><input name="pass" type="password" class="campo" onclick="campos_verdes()">
+			<img src="ojo_abierto.png" width="20" height="20" onclick="mostrar()">
+			<img src="ojo_cerrado.png" width="20" height="20" onclick="ocultar()">
+			</td>
+		</tr>
+		<tr align="center">
+			<td><input type="reset" class="boton_reg" value="Reset" name="b_reset"></td>
+			<td><input type="button" class="boton_cat" value="Iniciar sesión" name="b_is" onclick="valida()"></td>
+		</tr>
+	</form>
+	</table> 
+</center></body>
+</html>

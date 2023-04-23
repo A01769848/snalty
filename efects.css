@@ -1,0 +1,129 @@
+.encabezado{
+	background:#32620e;
+	color:white;
+	width:95%;
+	border-radius:18px;
+}
+
+.boton_inicio{
+	background:#32620E;
+	color:white;
+	font-size:13pt;
+	width:130px;
+	border-radius:12px;
+	border: 0;
+}
+
+.boton_inicio:hover{
+	background:#81A969;
+	color:#32620E;
+}
+
+.boton_cat{
+	background:#81A969;
+	color:white;
+	font-size:16pt;
+	width:150px;
+	border-radius:12px;	
+	border: 0;
+}
+
+.boton_cat:hover{
+	background:#32620E;
+	color:#81A969;
+}
+
+.boton_carr{
+	background:#32620E;
+	color:white;
+	font-size:14pt;
+	width:130px;
+	border-radius:12px;	
+	border: 0;
+}
+
+.boton_carr:hover{
+	background:#81A969;
+	color:#32620E;
+}
+
+.boton_reg{
+	background:#BFBFBF;
+	color:white;
+	font-size:14pt;
+	width:150px;
+	border-radius:12px;	
+	border: 0;
+}
+
+.boton_reg:hover{
+	background:#777777;
+	color:#BFBFBF;
+}
+
+.boton_op{
+	background:#32620E;
+	color:white;
+	font-size:16pt;
+	border: 0;
+	border-radius:13px;	
+	width:180px;
+	height: 52px;
+}
+
+.boton_op:hover{
+	background:#81A969;
+	color:#32620E;	
+}
+
+.campo{
+	background:#81a969;
+	color:white;
+	font-size:16pt;
+	font-weight:bold;
+	border-radius:10px;
+	text-align:center;
+}
+
+.boton_reset{
+	background:gray;
+	color:white;
+	font-size:12pt;
+	width:150px;
+	border-radius:12px;	
+	border: 0;
+}
+
+.boton_reset:hover{
+	background:#777777;
+	color:#BFBFBF;
+}
+
+ .boton_envio{
+	background:#32620E;
+	color:white;
+	font-size:12pt;
+	width:180px;
+	border-radius:18px;
+	border: 0;
+}
+
+.boton_envio:hover{
+	background:#81A969;
+	color:#32620E;
+}
+
+.boton_back{
+	background:gray;
+	color:white;
+	font-size:15pt;
+	border: 0;
+	border-radius:13px;	
+	width:160px;
+	height: 40px;
+}
+
+.boton_back:hover{
+	background:#777777;
+	color:#BFBFBF;	
+}

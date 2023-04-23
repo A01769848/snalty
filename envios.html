@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta charset="utf-8">
+	<link href="logo_snalty.png" rel="shortcut icon" type="image/png">
+	<link href="efects.css" rel="stylesheet" type="text/css">
+	<title>Snalty</title>
+	<script src="envios.js" type="text/JavaScript"></script>
+</head>
+<body><center>
+	<h1><font color="#81a969">Información sobre envíos</font></h1>
+	<br>
+	<table border="3" width="70%">
+	<form name="f_edo">
+	<tr align="center">
+		<td colspan="2"><p><font color="#32620E" size="4">El envío solo está disponible para algunos estados de la República Mexicana, para verificar la disponibilidad y obtener una estimación del costo utiliza esta tabla.</font></p></td>
+	</tr>
+	<tr align="center">
+		<td><p><font size="4">Selecciona tu entidad federativa</font></p></td>
+		<td><select name="estado"class="campo">
+				<option value="1">Aguascalientes</option>
+				<option value="2">Baja California</option>
+				<option value="3">Baja California Sur</option>
+				<option value="4">Campeche</option>
+				<option value="5">Ciudad de México</option>
+				<option value="6">Coahuila</option>
+				<option value="7">Colima</option>
+				<option value="8">Chiapas</option>
+				<option value="9">Chihuahua</option>
+				<option value="10">Durango</option>
+				<option value="11">Guanajuato</option>
+				<option value="12">Guerrero</option>
+				<option value="13">Hidalgo</option>
+				<option value="14">Jalisco</option>
+				<option value="15">México</option>
+				<option value="16">Michoacán</option>
+				<option value="17">Morelos</option>
+				<option value="18">Nayarit</option>
+				<option value="19">Nuevo León</option>
+				<option value="20">Oaxaca</option>
+				<option value="21">Puebla</option>
+				<option value="22">Querétaro</option>
+				<option value="23">Quintana Roo</option>
+				<option value="24">San Luis Potosí</option>
+				<option value="25">Sinaloa</option>
+				<option value="26">Sonora</option>
+				<option value="27">Tabasco</option>
+				<option value="28">Tamaulipas</option>
+				<option value="29">Tlaxcala</option>
+				<option value="30">Veracruz</option>
+				<option value="31">Yucatán</option>
+				<option value="32">Zacatecas</option>
+			</select></td>
+	</tr>
+	<tr align="center">
+		<td><p> <font size="4">Disponibilidad</font></p></td>
+		<td><input name="salida_dispon" class="campo" type="text" disabled="true" style="background:#BFBFBF;"></td>
+	</tr>
+	<tr align="center">
+		<td><p><font size="4">Costo aproximado</font></p></td>
+		<td><input name="salida_costo" class="campo" type="text" disabled="true" style="background:#BFBFBF;"></td>
+	</tr>
+	<tr align="center">
+		<td colspan="2"><table width="100%">
+			<tr align="center">
+				<td><input name="disponibilidad" type="button" class="boton_envio" value="Verficar disponibilidad" onclick="dispon()"></td>
+				<td><input name="costear" type="button" class="boton_envio" value="Estimación de costo" onclick="ejecutar()"></td>
+				<td><input type="reset" class="boton_reset" value="Reset"></td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+</p></td>
+</table>
+</form>
+<br><br>
+<a href="#" onclick="javascript:window.history.back();">
+	<button class="boton_back">Regresar</button>
+</a>
+</center></body>
+</html>
